@@ -8,3 +8,4 @@ Notes of Programming in Lua 3
 ----
 
 + [第4章 语句](notes/04_Statements.md)
++ [第5章 函数](notes/05_Functions.md)

@@ -181,7 +181,7 @@
     has_nils(1, 2)         -- false
     has_nils(1, nil, 3)    -- true
 
-如果可变参数中不可能有 `nil` 值，则建议使用 `{...}`（而不是 `table.pack(...)），因为它更简洁、速度更快。
+如果可变参数中不可能有 `nil` 值，则建议使用 `{...}`（而不是 `table.pack(...)`），因为它更简洁、速度更快。
 
 
 3. 命名参数（Named Arguments）
