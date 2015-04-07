@@ -154,14 +154,15 @@
 
 `return` 用于从函数中返回结果或者结束一个函数。`return` 有一个特殊限制：它只能作为 **块**（block）的最后一个语句出现：
 
-    -- 返回表 `t` 中值 `v` 对应的索引
+    -- 返回序列 a 中值 v 对应的索引
     function index(a, v)
       for i = 1, #a do
         if a[i] == v then
-          print("job done")
+          print("found it")
           return i
         end
       end
+      print("not found")
     end
 
 如果想在块的中间使用`return`，你需要借助于 `do` 块：
@@ -311,12 +312,12 @@ Lua 对 `goto` 语句做了一些限制：
 
     -- 游戏进行中
     repeat
-    local current = room
-    local move = io.read()
-    room = current[move] or current
-    if room == current then
+      local current = room
+      local move = io.read()
+      room = current[move] or current
+      if room == current then
         print("invalid move")
-    end
+      end
     until room == room4
 
     -- 游戏结束
