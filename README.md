@@ -11,5 +11,6 @@ Notes of Programming in Lua 3
 + [第3章 表达式](notes/03_Expressions.md)
 + [第4章 语句](notes/04_Statements.md)
 + [第5章 函数](notes/05_Functions.md)
++ [第6章 函数的更多讨论](notes/06_More_about_Functions.md)
 + [第7章 迭代器与泛型 for](notes/07_Iterators_and_the_Generic_for.md)
 + [第9章 协程](notes/09_Coroutines.md)
