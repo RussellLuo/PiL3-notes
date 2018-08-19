@@ -1,9 +1,7 @@
-4. 语句（Statements）
-====================
+# 4. 语句（Statements）
 
 
-1. 赋值（Assignment）
---------------------
+## 1. 赋值（Assignment）
 
 **单赋值**（single assignment）：
 
@@ -34,8 +32,7 @@
 + 多重赋值的使用场景：交换两个变量的值、收集函数返回的多个值
 
 
-2. 局部变量与块（Local Variables and Blocks）
---------------------------------------------
+## 2. 局部变量与块（Local Variables and Blocks）
 
 使用 **local** 语句创建**局部变量**：
 
@@ -61,8 +58,7 @@
 + 局部变量 `foo` 拥有更快的访问速度
 
 
-3. 控制结构（Control Structures）
---------------------------------
+## 3. 控制结构（Control Structures）
 
 ### if then else
 
@@ -143,8 +139,7 @@
 + `ipairs`（遍历序列）
 + `string.gmatch`（遍历字符串）
 
-4. break、return 和 goto
-------------------------
+## 4. break、return 和 goto
 
 ### break
 
@@ -202,8 +197,7 @@ Lua 对 `goto` 语句做了一些限制：
     end
 
 
-练习题（Exercises）
-------------------
+## 练习题（Exercises）
 
 ### Q1. 大部分类似 C 语法的语言都不提供 `elseif` 构造，为什么 Lua 要提供？
 
